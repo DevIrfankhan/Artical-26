@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.heroContaine{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid red;
+    width: 100%;
+}
+.heroDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    width: 100%;
+    width: 100%;
+    border: 2px solid black;
+}
+.heroImgs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20rem;
+}

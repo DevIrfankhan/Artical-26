@@ -1,15 +1,15 @@
 
-
+import "./HeroSection.css"
 const HeroSection = ({ movies }) => {
     console.log(movies)
   return (
-    <div>
+    <div className="heroDiv">
           { 
               movies.map((list,i) => {
                   return (
-                      <div key={i}>
+                      <div key={i} className="heroContainer">
 
-                          <img src={list.Poster} alt="" />
+                          <img className="heroImgs" src={list.Poster} alt="" />
                           <p> {list.Title} </p>
                       </div>
                 )
