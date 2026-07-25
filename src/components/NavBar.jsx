@@ -10,6 +10,7 @@ const NavBar = ({ setSearch }) => {
   const searchButton = () => {
     setSearch(isValue)
   }
+  
   return (
     <div>
           <div className="container">
