@@ -14,6 +14,7 @@ const HeroSection = ({ movies }) => {
                 <img className="heroImgs" src={list.Poster} alt="" />
               </div>
               <p> {list.Title} </p>
+              <span>{list.Year}</span>
             </div>
           )
         })
