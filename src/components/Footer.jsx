@@ -1,0 +1,32 @@
+
+import "./Footer.css"
+const Footer = () => {
+
+    let FooterList = {
+        No: 9696255752,
+        Address: "New Hiader Ganj Lucknow",
+        Gmial: "irfankhanofficial140@gmial.com",
+        
+    }
+    return (
+        <div className='FooterDiv'>
+            <div className="FirstFooterDiv">
+                <span> {FooterList.No} </span>
+                <span> {FooterList.Address} </span>
+                <span> {FooterList.Gmial} </span>
+      </div>
+            <div className="FirstFooterDiv">
+                <span> {FooterList.No} </span>
+                <span> {FooterList.Address} </span>
+                <span> {FooterList.Gmial} </span>
+      </div>
+            <div className="FirstFooterDiv">
+                <span> {FooterList.No} </span>
+                <span> {FooterList.Address} </span>
+                <span> {FooterList.Gmial} </span>
+      </div>
+    </div>
+  )
+}
+
+export default Footer
