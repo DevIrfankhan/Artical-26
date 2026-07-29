@@ -1,5 +1,6 @@
 
 import "./Footer.css"
+import "@fortawesome/fontawesome-free/css/all.min.css";
 const Footer = () => {
 
     let FooterList = {
@@ -19,14 +20,20 @@ const Footer = () => {
                 <span> {FooterList.Gmial} </span>
       </div>
             <div className="FirstFooterDiv">
-                <span> {FooterList.No} </span>
-                <span> {FooterList.Address} </span>
-                <span> {FooterList.Gmial} </span>
+
+            <a href={FooterList.instagram} target="_blank" rel="noopener noreferrer">
+                    <i className="fa-brands fa-instagram">insta</i>
+                </a>
+            <a href={FooterList.instagram} target="_blank" rel="noopener noreferrer">
+                    <i className="fa-brands fa-instagram">insta</i>
+                </a>
+            <a href={FooterList.instagram} target="_blank" rel="noopener noreferrer">
+                    <i className="fa-brands fa-instagram">insta</i>
+                </a>
+               
       </div>
             <div className="FirstFooterDiv">
-            <a href={FooterList.instagram} target="_blank" rel="noopener noreferrer">
-                    Instagram
-                </a>
+                <span> {FooterList.No} </span>
                 <span> {FooterList.Address} </span>
                 <span> {FooterList.Gmial} </span>
       </div>
