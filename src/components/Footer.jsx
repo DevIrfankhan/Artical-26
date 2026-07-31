@@ -8,7 +8,8 @@ const Footer = () => {
         Address: "New Hiader Ganj Lucknow",
         Gmial: "irfankhanofficial140@gmial.com",
         instagram: "https://www.instagram.com/irfan__k.h.a.n?igsh=cTF1b2xuNHdyMmts",
-        facebook: "",
+        facebook: "https://www.facebook.com/share/1E79nqdT1U/",
+        Github:"https://github.com/DevIrfankhan"
         
         
     }
@@ -19,16 +20,16 @@ const Footer = () => {
                 <span> {FooterList.Address} </span>
                 <span> {FooterList.Gmial} </span>
       </div>
-            <div className="FirstFooterDiv">
+            <div className="FirstFooterDivsocial">
 
             <a href={FooterList.instagram} target="_blank" rel="noopener noreferrer">
                     <i className="fa-brands fa-instagram">insta</i>
                 </a>
-            <a href={FooterList.instagram} target="_blank" rel="noopener noreferrer">
-                    <i className="fa-brands fa-instagram">insta</i>
+            <a href={FooterList.facebook} target="_blank" rel="noopener noreferrer">
+                    <i className="fa-brands fa-facebook">facebook</i>
                 </a>
-            <a href={FooterList.instagram} target="_blank" rel="noopener noreferrer">
-                    <i className="fa-brands fa-instagram">insta</i>
+            <a href={FooterList.Github} target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-github">github</i>
                 </a>
                
       </div>
