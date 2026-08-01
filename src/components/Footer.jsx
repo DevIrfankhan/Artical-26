@@ -2,6 +2,12 @@
 import "./Footer.css"
 import "@fortawesome/fontawesome-free/css/all.min.css";
 const Footer = () => {
+    const scrollTop = () => {
+        window.scrollTo({
+            top: 0,
+            behavior:'smooth'
+        })
+    }
 
     let FooterList = {
         No: 9696255752,
@@ -34,9 +40,8 @@ const Footer = () => {
                
       </div>
             <div className="FirstFooterDiv">
-                <span> {FooterList.No} </span>
-                <span> {FooterList.Address} </span>
-                <span> {FooterList.Gmial} </span>
+                <i className="fa-solid fa-arrow-up" onClick={scrollTop}></i>
+               {/* <snap onClick={scrollTop}>scrool</snap> */}
       </div>
     </div>
   )
